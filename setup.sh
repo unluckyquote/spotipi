@@ -8,7 +8,7 @@ sudo touch /etc/modprobe.d/alsa-blacklist.conf
 sudo echo "blacklist snd_bcm2835" >> /etc/modprobe.d/alsa-blacklist.conf
 
 echo "Installing spotipy library:"
-pip install spotipy==2.24.0
+pip install spotipy
 
 echo "Installing pillow library:"
 pip install pillow
