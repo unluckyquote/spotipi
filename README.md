@@ -7,7 +7,7 @@ This project is to display information on 32x32 led matrix from the Spotify web 
     * Set the redirect uri to any local url such as http://127.0.0.1/callback
 * First step is to ssh to your raspberry pi to clone the repository
 ```
-git clone  https://github.com/unluckyquote/spotipi2.git
+git clone  https://github.com/unluckyquote/spotipi.git
 ```
 * Next go ahead and change into the directory using 
 ```
