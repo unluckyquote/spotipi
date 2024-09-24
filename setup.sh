@@ -8,13 +8,13 @@ sudo touch /etc/modprobe.d/alsa-blacklist.conf
 sudo echo "blacklist snd_bcm2835" >> /etc/modprobe.d/alsa-blacklist.conf
 
 echo "Installing spotipy library:"
-pip install spotipy==2.23.0
+pip install spotipy==2.24.0
 
 echo "Installing pillow library:"
-pip install pillow==9.3.0
+pip install pillow
 
 echo "Installing flask library:"
-pip install flask==3.0.0
+pip install flask
 
 echo "Enter your Spotify Client ID:"
 read spotify_client_id
